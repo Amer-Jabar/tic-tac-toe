@@ -1,0 +1,8 @@
+<button
+[disabled]="(winner || tie) ? true : scorer ? true : false"
+class="square"
+(click)="onClick()"
+[style]="buttonStyle(scorer)"
+>
+    <p>{{scorer ? scorer : '-'}}</p>
+</button>

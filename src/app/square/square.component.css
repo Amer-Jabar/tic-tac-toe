@@ -1,0 +1,12 @@
+.square {
+    width: 31.333%;
+    height: 31.333%;
+    margin: 1%;
+    border: none;
+    border-radius: 5px;
+    background-color: #fcffff;
+    box-shadow: 0px 0px 8px -3px black;
+    font-size: 36px;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+}
