@@ -51,6 +51,7 @@ export class AppComponent {
   tie: boolean = false;
 
   playerClicked(index: number, currentPlayer: String) {
+
     this.board[index] = currentPlayer;
     const winner: String | null = calculateWinner(this.board);
     if ( winner ) {
